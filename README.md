@@ -3,6 +3,8 @@ sublimetext-php-colors-cheme
 
 Sublimetext 中撰寫 PHP 或 html 時支援高亮 的 Color Scheme
 
+<img src="https://github.com/fdjkgh580/Sublimetext-Jsn_style/blob/master/view%20(3).jpg">
+
 <img src="https://github.com/fdjkgh580/sublimetext-php-colors-cheme/blob/master/view%20(2).jpg">
 
 <img src="https://github.com/fdjkgh580/sublimetext-php-colors-cheme/blob/master/view.jpg">
