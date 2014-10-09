@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>jsn</string>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#1E2221</string>
+				<key>caret</key>
+				<string>#F8F8F0</string>
+				<key>foreground</key>
+				<string>#F8F8F2</string>
+				<key>invisibles</key>
+				<string>#3B3A32</string>
+				<key>lineHighlight</key>
+				<string>#F7E882</string>
+				<key>selection</key>
+				<string>#49483E</string>
+				<key>findHighlight</key>
+				<string>#FAFD7B</string>
+				<key>findHighlightForeground</key>
+				<string>#000000</string>
+				<key>selectionBorder</key>
+				<string>#222218</string>
+				<key>activeGuide</key>
+				<string>#9D550FB0</string>
+
+				<key>bracketsForeground</key>
+				<string>#F8F8F2A5</string>
+				<key>bracketsOptions</key>
+				<string>underline</string>
+
+				<key>bracketContentsForeground</key>
+				<string>#F8F8F2A5</string>
+				<key>bracketContentsOptions</key>
+				<string>underline</string>
+
+				<key>tagsOptions</key>
+				<string>stippled_underline</string>
+			</dict>
+		</dict>
+
+
+
+
+		
+		<dict>
+			<key>name</key>
+			<string>PHP 基本</string>
+			<key>scope</key>
+			<string>source.php, meta.function.arguments</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A7CC9D</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP block begin / end</string>
+			<key>scope</key>
+			<string>punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E10000</string>
+			</dict>
+		</dict>
+				
+		<dict>
+			<key>name</key>
+			<string>PHP  new / class / function / echo /control keyword</string>
+			<key>scope</key>
+			<string>keyword.other.new, storage.type, support.function.construct, keyword.control</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>control keyword</string>
+			<key>scope</key>
+			<string>keyword.control</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#58A2DE</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>PHP class / extends class/ function name</string>
+			<key>scope</key>
+			<string>entity.name.type.class, entity.other.inherited-class, entity.name.function, meta.function-call, support.class, variable.other.property</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F9399E</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>PHP modifier / language </string>
+			<key>scope</key>
+			<string>storage.modifier, constant.language</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#4BE947</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>PHP var</string>
+			<key>scope</key>
+			<string>variable.other</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F4CA66</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP COMMENT</string>
+			<key>scope</key>
+			<string>comment</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C8B5CA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP support function </string>
+			<key>scope</key>
+			<string>support.function </string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#3DB3FA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP string / number </string>
+			<key>scope</key>
+			<string>string, constant.numeric</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CD6969</string>
+			</dict>
+		</dict>
+		
+		
+		<dict>
+			<key>name</key>
+			<string>tag</string>
+			<key>scope</key>
+			<string>meta.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF3C80</string>
+			</dict>
+		</dict>
+
+		
+		<dict>
+			<key>name</key>
+			<string>html base</string>
+			<key>scope</key>
+			<string>text.html.basic</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		
+		
+		<dict>
+			<key>name</key>
+			<string>html form</string>
+			<key>scope</key>
+			<string>meta.tag.form.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FDF053</string>
+			</dict>
+		</dict>
+
+		
+		<dict>
+			<key>name</key>
+			<string>html table</string>
+			<key>scope</key>
+			<string>meta.tag.table.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#39D541</string>
+			</dict>
+		</dict>
+
+		
+		<dict>
+			<key>name</key>
+			<string>html table</string>
+			<key>scope</key>
+			<string>meta.tag.anchor.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#39D541</string>
+			</dict>
+		</dict>
+
+		
+		<dict>
+			<key>name</key>
+			<string>html img</string>
+			<key>scope</key>
+			<string>meta.tag.img.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E051FF</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>html img</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#8E8E8E</string>
+			</dict>
+		</dict>
+
+		
+		<dict>
+			<key>name</key>
+			<string>js 基本</string>
+			<key>scope</key>
+			<string>source.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CBE994</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>js 區塊</string>
+			<key>scope</key>
+			<string>entity.name.tag.script.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF0000</string>
+			</dict>
+		</dict>
+
+
+		
+		<dict>
+			<key>name</key>
+			<string>css 基本</string>
+			<key>scope</key>
+			<string>source.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF17AE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>css key</string>
+			<key>scope</key>
+			<string>meta.property-name.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DCE7D3</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>css key</string>
+			<key>scope</key>
+			<string>meta.property-value.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#769D55</string>
+			</dict>
+		</dict>
+
+
+	<dict>
+            <key>name</key>
+            <string>SublimeLinter Warning</string>
+            <key>scope</key>
+            <string>sublimelinter.mark.warning</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#DDB700</string>
+            </dict>
+        </dict><dict>
+            <key>name</key>
+            <string>SublimeLinter Error</string>
+            <key>scope</key>
+            <string>sublimelinter.mark.error</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D02000</string>
+            </dict>
+        </dict><dict>
+            <key>name</key>
+            <string>SublimeLinter Gutter Mark</string>
+            <key>scope</key>
+            <string>sublimelinter.gutter-mark</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFFFFF</string>
+            </dict>
+        </dict></array>
+	<key>uuid</key>
+	<string>D8D5E82E-3D5B-46B5-B38E-8C841C21347D</string>
+</dict>
+</plist>
